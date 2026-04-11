@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gonçalo Silva</title>
+    <meta
+      name="description"
+      content="Gonçalo Silva is CTO at Doist. He writes and speaks about software engineering and globally distributed teams."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gonçalo Silva">
+    <meta
+      property="og:description"
+      content="CTO at Doist. Writing and speaking about software engineering and globally distributed teams."
+    >
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <svg class="icon-defs" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-rss" viewBox="0 0 24 24">
+        <path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/>
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24">
+        <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+      </symbol>
+      <symbol id="icon-mastodon" viewBox="0 0 24 24">
+        <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </symbol>
+    </svg>
+
+    <div class="page">
+      <header class="site-header">
+        <h1>Gonçalo Silva</h1>
+
+        <nav aria-label="External links">
+          <ul class="icon-links">
+            <li>
+              <a class="icon-link" href="https://nonsense.io/" rel="noopener noreferrer" aria-label="Blog" title="Blog">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-rss"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="https://github.com/goncalossilva" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-github"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="https://x.com/goncalossilva" rel="noopener noreferrer" aria-label="X" title="X">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-x"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="https://fosstodon.org/@goncalossilva" rel="me noopener noreferrer" aria-label="Mastodon" title="Mastodon">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-mastodon"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" href="https://www.linkedin.com/in/goncalossilva/" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><use href="#icon-linkedin"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="content">
+        <section class="intro" aria-label="About">
+          <p>
+            I’m Gonçalo, CTO at <a href="https://doist.com/" rel="noopener noreferrer">Doist</a>, the
+            bootstrapped and globally distributed bunch behind
+            <a href="https://todoist.com/" rel="noopener noreferrer">Todoist</a>,
+            <a href="https://twist.com/" rel="noopener noreferrer">Twist</a>, and more (soon!).
+          </p>
+          <p>
+            Before joining Doist, I founded Heavy Player with
+            <a href="https://jpmcosta.com/" rel="noopener noreferrer">João</a>. We wanted to build mobile games with
+            delightful stories and mechanics, but we also needed to pay rent. That’s how I met
+            <a href="https://x.com/amix3k/" rel="noopener noreferrer">Amir</a>, who was trying to get Todoist
+            (a side project at the time) off the ground through freelancers alone.
+          </p>
+          <p>
+            Freelancing wasn’t new to me. I’d worked with clients such as
+            <a href="https://www.shopify.com/" rel="noopener noreferrer">Shopify</a>,
+            <a href="https://www.engineyard.com/" rel="noopener noreferrer">Engine Yard</a>, and PT Inovação.
+            Earlier still, I joined Tecla Colorida, where I worked as an engineer
+            and later as a sysadmin on Escolinhas, a platform for primary school children, teachers, parents,
+            and, let’s be honest, government contracts.
+          </p>
+          <p>
+            I’ve contributed to open source throughout my career. If you’ve used software built with Ruby, Rails,
+            Kotlin, Android, or GNOME, there’s a decent chance you’ve run code I wrote.
+          </p>
+          <p>When not working, I’m usually enjoying my three little rascals.</p>
+        </section>
+
+        <section aria-labelledby="work-title">
+          <h2 id="work-title">Work</h2>
+          <ul class="item-list">
+            <li>
+              <strong class="item-title">Doist</strong>
+              <span class="meta">CTO. Head of Android. Engineer.</span>
+            </li>
+            <li>
+              <strong class="item-title">Heavy Player</strong>
+              <span class="meta">Founder.</span>
+            </li>
+            <li>
+              <strong class="item-title">Freelance</strong>
+              <span class="meta">Architect. DBA. Engineer.</span>
+            </li>
+            <li>
+              <strong class="item-title">Tecla Colorida</strong>
+              <span class="meta">Engineer. Sysadmin.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="organized-events-title">
+          <h2 id="organized-events-title">Organized events</h2>
+          <ul class="item-list">
+            <li>
+              <a href="https://lisbonai.xyz/" rel="noopener noreferrer">Lisbon AI</a>
+              <span class="meta">Builder-first AI conference in Lisbon.</span>
+            </li>
+            <li>
+              <a href="https://medium.com/makeorbreak-io/make-or-break-more-than-a-hackathon-45d43c0042ba" rel="noopener noreferrer">Make or Break</a>
+              <span class="meta">Hackathon and tech festival. Successor to Porto Summer of Code · 2017</span>
+            </li>
+            <li>
+              <strong class="item-title">Porto Summer of Code</strong>
+              <span class="meta">
+                Programming competition in Porto ·
+                <a href="https://noticias.up.pt/2014/07/30/alumni-da-feup-cacam-novos-talentos-em-programacao/" rel="noopener noreferrer">2014</a>
+                ·
+                <a href="https://noticias.up.pt/2015/09/12/porto-summer-of-code-quotidianos-digitais-no-edificio-axa/" rel="noopener noreferrer">2015</a>
+              </span>
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="talks-title">
+          <h2 id="talks-title">Talks</h2>
+          <ol class="item-list">
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/developing-software-remotely-and-asynchronously-sei-2021" rel="noopener noreferrer">
+                Developing Software Remotely and Asynchronously
+              </a>
+              <span class="meta"><time datetime="2021-02-25">Feb 2021</time> · SEI 2021</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/developing-software-remotely-and-asynchronously-talk-a-bit-2021" rel="noopener noreferrer">
+                Developing Software Remotely and Asynchronously
+              </a>
+              <span class="meta"><time datetime="2021-02-12">Feb 2021</time> · Talk a Bit 2021</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/distributed-workforces-pros-cons-and-challenges" rel="noopener noreferrer">
+                Distributed workforces: pros, cons and challenges
+              </a>
+              <span class="meta"><time datetime="2018-08-16">Aug 2018</time> · Freedom X Fest</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/kotlin-in-production" rel="noopener noreferrer">
+                Kotlin in Production
+              </a>
+              <span class="meta"><time datetime="2017-05-25">May 2017</time> · ISELTech'17</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/remote-workflows-1" rel="noopener noreferrer">
+                Remote workflows
+              </a>
+              <span class="meta"><time datetime="2016-10-07">Oct 2016</time> · Pixels Camp 2016</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/100-percent-kotlin-and-anko" rel="noopener noreferrer">
+                100% Kotlin and Anko
+              </a>
+              <span class="meta"><time datetime="2016-10-07">Oct 2016</time> · Pixels Camp 2016</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/building-todoist-past-present-and-future" rel="noopener noreferrer">
+                Building Todoist: past, present and future
+              </a>
+              <span class="meta"><time datetime="2016-09-24">Sep 2016</time> · DevFest Lisbon 2016</span>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/goncalossilva/remote-workflows" rel="noopener noreferrer">
+                Remote workflows
+              </a>
+              <span class="meta">
+                <time datetime="2016-06-15">Jun 2016</time> ·
+                <a href="https://www.bloco.io/events-archive/2016/android-talks-5" rel="noopener noreferrer">Android Talks #5</a>
+                · Coimbra
+              </span>
+            </li>
+            <li>
+              <a href="https://railsgirls.com/porto2013.html" rel="noopener noreferrer">Rails Girls Porto</a>
+              <span class="meta">
+                <time datetime="2013-03-01">Mar 2013</time> · Porto · Coach
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section aria-labelledby="podcasts-title">
+          <h2 id="podcasts-title">Podcasts</h2>
+          <ol class="item-list">
+            <li>
+              <a href="https://refactoring.fm/p/how-todoist-is-built-with-goncalo" rel="noopener noreferrer">
+                How Todoist is Built
+              </a>
+              <span class="meta"><time datetime="2026-01-23">Jan 2026</time> · Episode 55 · Refactoring Podcast</span>
+            </li>
+            <li>
+              <a href="https://podcasts.apple.com/ie/podcast/replay-trust-is-essential-in-remote-companies-with/id1459673410?i=1000561542690" rel="noopener noreferrer">
+                Trust is essential in remote companies
+              </a>
+              <span class="meta"><time datetime="2022-05-16">May 2022</time> · People at Work</span>
+            </li>
+            <li>
+              <a href="https://talkingkotlin.com/why-ios-developers-at-todoist-wanted-kotlin-multiplatform/" rel="noopener noreferrer">
+                Why iOS Developers at Todoist Wanted Kotlin Multiplatform
+              </a>
+              <span class="meta"><time datetime="2022-02-17">Feb 2022</time> · Talking Kotlin</span>
+            </li>
+            <li>
+              <a href="https://www.virtualnotdistant.com/podcasts/cultivating-learning-culture" rel="noopener noreferrer">
+                Cultivating a Culture of Learning in Organisations
+              </a>
+              <span class="meta"><time datetime="2021-03-04">Mar 2021</time> · Episode 264 · 21st Century Work Life</span>
+            </li>
+            <li>
+              <a href="https://music.amazon.com/podcasts/cec8fe55-936b-4d00-9109-467f2f1cc3ae/episodes/453f270f-0a58-4b80-89d6-f04e61f82926/saas-boss-why-culture-is-king-in-the-remote-workforce-with-gon%C3%A7alo-silva" rel="noopener noreferrer">
+                Why Culture is King in the Remote Workforce
+              </a>
+              <span class="meta"><time datetime="2021-01-14">Jan 2021</time> · Episode 53 · SaaS Boss</span>
+            </li>
+            <li>
+              <a href="https://www.infoq.com/podcasts/working-completely-asynchronously/" rel="noopener noreferrer">
+                Working Completely Asynchronously
+              </a>
+              <span class="meta"><time datetime="2021-01-08">Jan 2021</time> · InfoQ Engineering Culture Podcast</span>
+            </li>
+            <li>
+              <a href="https://techleadjournal.dev/episodes/17/" rel="noopener noreferrer">
+                Remote Work &amp; Asynchronous Communication at Doist
+              </a>
+              <span class="meta"><time datetime="2020-11-30">Nov 2020</time> · Episode 17 · Tech Lead Journal</span>
+            </li>
+            <li>
+              <a href="https://www.virtualnotdistant.com/podcasts/asynchronous-communication" rel="noopener noreferrer">
+                Championing Asynchronous Communication in Remote Teams
+              </a>
+              <span class="meta"><time datetime="2020-08-20">Aug 2020</time> · Episode 246 · 21st Century Work Life</span>
+            </li>
+            <li>
+              <a href="https://management30.com/podcast/pandemic-remote-working-lessons/" rel="noopener noreferrer">
+                Pandemic Remote Working Lessons, From The Masters
+              </a>
+              <span class="meta"><time datetime="2020-08-07">Aug 2020</time> · Management 3.0</span>
+            </li>
+            <li>
+              <a href="https://music.amazon.co.uk/podcasts/a7d0e384-66a3-4f11-8341-b4f8c0e00096/episodes/be965a55-9ad0-4db6-9a58-d54aeb0ff98a/the-world-of-work-podcast-e085---remote-working-cultures-w-goncalo-silva" rel="noopener noreferrer">
+                Remote Working Cultures
+              </a>
+              <span class="meta"><time datetime="2020-07-13">Jul 2020</time> · Episode 85 · The World of Work Podcast</span>
+            </li>
+            <li>
+              <a href="https://maintainable.fm/episodes/goncalo-silva-how-a-fully-remote-team-builds-and-maintains-software" rel="noopener noreferrer">
+                How A Fully-Remote Team Builds and Maintains Software
+              </a>
+              <span class="meta"><time datetime="2020-06-01">Jun 2020</time> · Episode 57 · Maintainable</span>
+            </li>
+            <li>
+              <a href="https://www.ageekleader.com/agl-146-working-remote-with-goncalo-silva-cto-of-doist/" rel="noopener noreferrer">
+                Working Remote with Gonçalo Silva, CTO of Doist
+              </a>
+              <span class="meta"><time datetime="2020-03-06">Mar 2020</time> · Episode 146 · A Geek Leader</span>
+            </li>
+            <li>
+              <a href="https://developeronfire.com/podcast/episode-445-goncalo-silva-highly-productive-teams" rel="noopener noreferrer">
+                Highly Productive Teams
+              </a>
+              <span class="meta"><time datetime="2019-10-14">Oct 2019</time> · Episode 445 · Developer On Fire</span>
+            </li>
+            <li>
+              <a href="https://medium.com/@team_36930/lessons-from-growing-doist-to-70-remote-employees-with-cto-gon%C3%A7alo-silva-84e44a13ea05" rel="noopener noreferrer">
+                Lessons From Growing Doist To 70+ Remote Employees
+              </a>
+              <span class="meta"><time datetime="2019-07-23">Jul 2019</time> · The Pesto Podcast</span>
+            </li>
+            <li>
+              <a href="https://weworkremotely.com/the-remote-show-podcast/goncalo-silva-cto-of-doist" rel="noopener noreferrer">
+                Gonçalo Silva, CTO of Doist
+              </a>
+              <span class="meta"><time datetime="2019-04-11">Apr 2019</time> · The Remote Show</span>
+            </li>
+            <li>
+              <a href="https://distantjob.com/blog/podcasts/lists-and-growing-organically-with-doists-goncalo-silva/" rel="noopener noreferrer">
+                Lists and Growing Organically
+              </a>
+              <span class="meta"><time datetime="2019-02-01">Feb 2019</time> · DistantJob Podcast</span>
+            </li>
+          </ol>
+        </section>
+
+        <section aria-labelledby="articles-title">
+          <h2 id="articles-title">Articles &amp; interviews</h2>
+          <ol class="item-list">
+            <li>
+              <a href="https://ctocraft.com/blog/conference-speaker-spotlight-qa-goncalo-silva/" rel="noopener noreferrer">
+                Conference Speaker Spotlight Q&amp;A
+              </a>
+              <span class="meta"><time datetime="2024-04-24">Apr 2024</time> · CTO Craft</span>
+            </li>
+            <li>
+              <a href="https://resources.owllabs.com/remote-work-interviews/gon%C3%A7alo-silva" rel="noopener noreferrer">
+                How to Get More Done by Focusing on Deep Work
+              </a>
+              <span class="meta"><time datetime="2019-04-24">Apr 2019</time> · Owl Labs</span>
+            </li>
+            <li>
+              <a href="https://web.archive.org/web/20100704070127/http://railsmagazine.com/issues/6" rel="noopener noreferrer">
+                Scaling Rails
+              </a>
+              <span class="meta"><time datetime="2010-06-28">Jun 2010</time> · Rails Magazine</span>
+            </li>
+            <li>
+              <a href="https://www.scribd.com/document/26431577/SOTH-Scaling-Rails" rel="noopener noreferrer">
+                Scaling Rails: a system-wide approach to performance optimization
+              </a>
+              <span class="meta">
+                <time datetime="2010-07-21">Jul 2010</time> ·
+                <a href="https://sigarra.up.pt/feup/pt/teses.tese?P_ALUNO_ID=19977&p_processo=703" rel="noopener noreferrer">FEUP</a>
+              </span>
+            </li>
+          </ol>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
